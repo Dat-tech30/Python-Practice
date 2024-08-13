@@ -1,0 +1,54 @@
+# Numbers within python are data represented as whole numbers or decimals.
+
+# Integers = whole numbers
+
+one = 1
+two = 2
+
+# Floats = decimals
+
+float_number = 21.25
+float_number2 = 589.222
+
+# calculation practice
+
+price_mouse = 21.99
+price_keyboard = 29.99
+price_mic = 45.99
+
+print('Welcome to the technology shop! Here are the listing for our items!')
+
+print(price_mic)
+print(price_keyboard)
+print(price_mouse)
+
+# Mathematical operations
+
+sum_1 = 2 + 2
+total = 2 - 1
+total_1 = 2 * 2
+sum_2 = 2 / 2
+
+# calculation practice part 2
+
+total = price_keyboard + price_mouse
+
+print("I would like to buy mouse and keyboard, please!")
+
+print(f"Great! your total is gonna be ${total}")
+
+#input function is the a function where it gets the user's data from a presented question
+
+user = input("What's your name? ")
+
+print(f"So nice to meet you {user}!")
+
+# calculation practice part 3
+
+print(f"Alright! How much are you paying {user}?")
+
+user_payment = input('')
+
+print(f"Oh nice you're paying ${user_payment}")
+
+#type function 
