@@ -51,4 +51,15 @@ user_payment = input('')
 
 print(f"Oh nice you're paying ${user_payment}")
 
-#type function 
+#type function is a function that tells you the data type stored in the variable
+
+type_func = type(price_mic)
+print(type_func)
+
+#type conversion is a function that usually converts strings into data types like floats or integers
+# float()
+# int()
+
+total_price = float(total)
+
+print(f'Your total is still ${total_price}.')
