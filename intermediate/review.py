@@ -35,3 +35,23 @@ print(r'''
 ┈┈┗┻┛┈┗┛┗┛┈┈┈┈
 
 ''')
+
+
+# functions
+# parameters and arguments!
+
+stuffed_animal = 12.99
+animal_hat = 15.99
+
+def animals(mammals, birds, fish):
+    print(f'Welcome to the Zoo! Where are plenty of animals for you to see!')
+    print(f'We have plenty of {mammals}, {birds}, {fish}')
+    print('We also have a gift shop for you to explore!')
+    user = input('Which animal would you like to see in order?')
+    print(f'Great choice! We will go see the {user} first!')
+    print("Buying the stuffed animal and hat? Great choice!")
+    total = stuffed_animal + animal_hat
+    print(f'total is gonna be ${total}')
+
+
+animals("mammals", "birds", "fish")
