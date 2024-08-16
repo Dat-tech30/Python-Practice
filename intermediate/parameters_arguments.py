@@ -26,3 +26,17 @@ def pets(canine, feline):
 pets('dog', 'cat')
 
 # Arguments can be anything that has outputs or values!
+# Put variables inside of values?
+
+value = int(input("give me a number!"))
+value2 = int(input("give me a number!"))
+
+def addition(value, value2):
+    print(value)
+    print(value2)
+    total = value + value2
+    print(total)
+
+addition(value, value2)
+
+
