@@ -90,3 +90,28 @@ if temperature >= 70:
     else:
         print("The weather is a little bit hot let\'s go the pool!")
 
+# Logical operators
+# Logical operators can join together
+# and
+# or
+# not
+
+
+phones = "IPhone"
+
+if phones == "IPhone" or phones == "Samsung":
+    print(f"Do you know which store to buy that {phones}?")
+else:
+    print("What phone is that?")
+
+
+
+temperature = 70
+
+if temperature >= 40 and temperature < 60:
+    print(f"Wow it is very cold right now. Wow {phones}?")
+elif temperature >= 90: 
+    print("Wow it is extremely hot right now")
+elif temperature == 70 or temperature == 80:
+    print("It\'s nice out! Wanna go outside?")
+    
