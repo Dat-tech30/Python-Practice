@@ -22,4 +22,35 @@ num -= 10
 subtracts 10 from current value of 100
 """
 
+# Fix this code right here:
+num = 2
+add = 5
 
+while add = num:
+    print(f'{num} + {add}') = {num + add}
+    add += 1
+
+
+
+# For loops
+
+nums = range(0, 20, 2)
+
+for c in range(1, 10):
+    print(c)
+
+
+# Break statements
+# Break statements skips the rest  of the remaining loop iterations exiting the loop early and used for specific conditions
+
+for c in range(1, 10):
+    if == 5:
+        break
+
+
+# Continue Statement
+
+for c in range(1, 10):
+    if == 5:
+        print("Hello World!")
+        continue
