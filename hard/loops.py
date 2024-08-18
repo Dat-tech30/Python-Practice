@@ -32,6 +32,7 @@ while num < 10:
 
 
 # For loops
+# A for loop is a programming construct that repeatedly executes a block of code until a condition is met
 
 nums = range(0, 20, 2)
 
