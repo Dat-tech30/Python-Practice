@@ -4,6 +4,15 @@
 # no numbers at the start ex. 21variablename = 21 
 # no special characters except an underscore ex. variablename&? = 21
 
+# ex. of bad naming
+''' 
+first-name
+first@name
+first$name
+num-1
+1num
+
+'''
 # Examples of good naming -
 # use lowercase if possible
 
