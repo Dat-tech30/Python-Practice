@@ -8,3 +8,30 @@
 
 empty_list = list() # no item in the list
 print(len(empty_list)) # 0
+
+
+shoes = ['Adidas', 'Nike', 'Vans', 'Skechers', 'Sneakers']
+countries = ['USA', 'Canada', 'Mexico', 'China', 'Russia']
+clothing = ['T-Shirt', 'Hoodie', 'Turtle-neck', 'button up shirt']
+
+
+# Print the lists and it length
+print('shoes:', shoes)
+print('Number of fruits:', len(shoes))
+print('Number of countries:', len(countries))
+print('Clothing:', clothing)
+print('Number of clothing:', len(clothing))
+print('Number of countries:', len(countries))
+
+# Modifying list
+
+shoes = ['crocs', 'vans', 'gucci', 'Skechers'] 
+first_shoes = shoes[0] 
+print(first_shoes)   
+second_shoes = shoes[1]
+print(second_shoes)  
+last_shoes = shoes[3]
+print(last_shoes) 
+last_index = len(shoes) - 1
+last_fruit = shoes[last_index]
+
