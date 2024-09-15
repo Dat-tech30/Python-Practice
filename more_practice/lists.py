@@ -40,21 +40,19 @@ last_fruit = shoes[last_index]
 fruits = ['banana', 'orange', 'mango', 'lemon'] 
 last_fruit = fruits[-1]
 second_last = fruits[-2]
-print(last_fruit)       # lemon
-print(second_last)      # mango
+print(last_fruit)       
+print(second_last)   
 
 # Slicing items
 fruits = ['banana', 'orange', 'mango', 'lemon'] 
-all_fruits = fruits[0:4] # it returns all the fruits
-# this is also give the same result as the above
-all_fruits = fruits[0:] # if we don't set where to stop it takes all the rest
-orange_and_mango = fruits[1:3] # it does not include the end index
+all_fruits = fruits[0:4]
+all_fruits = fruits[0:] 
+orange_and_mango = fruits[1:3] 
 orange_mango_lemon = fruits[1:]
 
 fruits = ['banana', 'orange', 'mango', 'lemon'] 
-all_fruits = fruits[-4:] # it returns all the fruits
-# this is also give the same result as the above
-orange_and_mango = fruits[-3:-1] # it does not include the end index
+all_fruits = fruits[-4:] 
+orange_and_mango = fruits[-3:-1]
 orange_mango_lemon = fruits[-3:]
 
 
