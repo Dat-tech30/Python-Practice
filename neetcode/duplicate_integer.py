@@ -13,10 +13,10 @@ List = [1, 2, 3, 4]
 
 class Solution:
     def hasDuplicate(self, nums: List[int]) bool:
-        hashset = set()
+        hashset = set() # This hashset is like a shoe box that orders all the shoes in a organized matter and it checks for duplicates
 
-        for n in nums:
-            if n in hashset:
-                return True
-            hashset.add(n)
-            return False
+        for n in nums: # for all the n's in the integer array "nums"
+            if n in hashset: # if n "integers" in the hashset is all ordered and no duplicates
+                return True # Return the output to true for the boolean
+            hashset.add(n) #  this is used to add the integer n to the hashset shoe box to find any extra integer duplicates
+            return False # return false if there is a integer that repeats so the output would return false
