@@ -12,3 +12,19 @@ class Solution:
             countS[s[i]] = 1 + countS.get(s[i], 0) # it increments it (increases) the count of the current characters using "s[i]" in the countS dictionary, if it does not exist in the dictionary add 1 to the count
             countT[t[i]] = 1 + countT.get(t[i], 0) # same thing but with t
         return countS == countT #compares the dictionaries if it's the same return true and if its not return false
+    
+
+
+"""
+Previous attempt:
+
+        
+        while str == str:
+            if s or t in str == str:
+                return True
+            else:
+                return False
+
+
+
+"""
