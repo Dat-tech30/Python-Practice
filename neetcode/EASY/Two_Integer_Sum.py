@@ -38,3 +38,15 @@ class Solution:
                 return [prevMap[diff], i] # returning the indices of the 2 numbers
             prevMap[n] = i # add the current number "n" and the index "i" to the hashmap for future reference
 
+
+
+'''
+
+enumerate(nums)
+
+definition: mentioning (a number of things) individually or one by one (like counting numbers or saying your abc's)
+
+the enumerate function adds a counter to an iterable and returns it in the form of an enumerating object, This enumerated object can then be used directly for loops or converted into a list of tuples using the list() function.
+
+'''
+
