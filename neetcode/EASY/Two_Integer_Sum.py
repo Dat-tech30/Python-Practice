@@ -30,10 +30,11 @@ Output: [0,1]
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        prevMap = {}  # val -> index
+        prevMap = {}  # val -> index ( this will store integers we seen within the array for the indices as values)
 
-        for i, n in enumerate(nums):
-            diff = target - n
-            if diff in prevMap:
-                return [prevMap[diff], i]
-            prevMap[n] = i
+        for i, n in enumerate(nums): # This will iterate in a loop fashion with "enumerate" meaning it will list it one by one individually for (nums)
+            diff = target - n # getting the difference between the target and the current number with "n"
+            if diff in prevMap: # if "diff" is in the hashmap, it means we've found a pair that adds up to the target
+                return [prevMap[diff], i] # returning the indices of the 2 numbers
+            prevMap[n] = i # add the current number "n" and the index "i" to the hashmap for future reference
+
