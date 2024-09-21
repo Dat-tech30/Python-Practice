@@ -4,6 +4,30 @@ You may assume that every input has exactly one pair of indices i and j that sat
 
 Return the answer with the smaller index first.'''
 
+"""
+nums=[3,4,5,6]
+target=7
+
+
+nums=[4,5,6]
+target=10
+
+- Example Inputs:
+
+Input: 
+nums = [3,4,5,6], target = 7
+
+Output: [0,1]
+
+Input: nums = [5,5], target = 10
+
+Output: [0,1]
+
+
+
+
+"""
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         prevMap = {}  # val -> index
