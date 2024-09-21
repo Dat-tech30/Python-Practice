@@ -20,3 +20,9 @@ class Solution:
                 return True # Return the output to true for the boolean
             hashset.add(n) #  this is used to add the integer n to the hashset shoe box to find any extra integer duplicates
             return False # return false if there is a integer that repeats so the output would return false
+
+
+'''
+Hashsets - A HashSet is a data structure that stores elements in a hash table and uses hashing to store and retrieve elements efficiently.
+         - They are really good at detecting duplicates
+'''
